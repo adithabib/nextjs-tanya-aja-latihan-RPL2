@@ -23,15 +23,15 @@ Buka http://localhost:3000. Starter berjalan tanpa `.env.local`.
 
 ## Isi proyek
 
-| Bagian | Keterangan |
-|---|---|
-| `app/page.js` dan komponen buatanmu | Dikerjakan siswa: Hari 03 (tampilan) dan Hari 04 (menghubungkan fungsi). |
-| `components/ui/` | Komponen shadcn/ui. |
-| `app/actions.js`, `lib/` | **Kode pendukung yang sudah disediakan**: Server Actions, validasi, konfigurasi, koneksi Supabase, sesi login, batas percobaan. Baru dipakai di Hari 04. |
-| `components/tombol-login.jsx`, `mode-pemilik.jsx`, `panel-pemilik.jsx`, `kartu-pemilik.jsx`, `status-halaman.jsx` | Komponen login dan pemilik yang sudah disediakan untuk Hari 04. |
-| `supabase/setup.sql` | Pembuat tabel. Sudah dijalankan pemateri di database latihan; dipakai hanya untuk bonus Supabase pribadi. |
-| `tests/` | `npm test` menguji aturan validasi tanpa database. |
-| `.env.example` | Contoh konfigurasi Hari 04 tanpa rahasia. Salin menjadi `.env.local`. |
+| Bagian                                                                                                            | Keterangan                                                                                                                                               |
+| ----------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `app/page.js` dan komponen buatanmu                                                                               | Dikerjakan siswa: Hari 03 (tampilan) dan Hari 04 (menghubungkan fungsi).                                                                                 |
+| `components/ui/`                                                                                                  | Komponen shadcn/ui.                                                                                                                                      |
+| `app/actions.js`, `lib/`                                                                                          | **Kode pendukung yang sudah disediakan**: Server Actions, validasi, konfigurasi, koneksi Supabase, sesi login, batas percobaan. Baru dipakai di Hari 04. |
+| `components/tombol-login.jsx`, `mode-pemilik.jsx`, `panel-pemilik.jsx`, `kartu-pemilik.jsx`, `status-halaman.jsx` | Komponen login dan pemilik yang sudah disediakan untuk Hari 04.                                                                                          |
+| `supabase/setup.sql`                                                                                              | Pembuat tabel. Sudah dijalankan pemateri di database latihan; dipakai hanya untuk bonus Supabase pribadi.                                                |
+| `tests/`                                                                                                          | `npm test` menguji aturan validasi tanpa database.                                                                                                       |
+| `.env.example`                                                                                                    | Contoh konfigurasi Hari 04 tanpa rahasia. Salin menjadi `.env.local`.                                                                                    |
 
 `.env.local` berisi rahasia dan tidak ikut ke GitHub (lihat `.gitignore`).
 
